@@ -1,11 +1,11 @@
-
 ### Problem
 
 Give details on your issue.
 
 ### Reproducible Project
 
-Please give a link to a public reproducible project or provide an example of the Restructured Text that gives an issue.
+Please give a link to a public reproducible project or provide an example of the
+Restructured Text that gives an issue.
 
 ```rst
 Place RST code here (if any).

@@ -1,5 +1,2 @@
-{%- if landing_page is defined and pagename == master_doc %}
-    {% extends 'landing.html' %}
-{% else %}
-	{% extends 'default.html' %}
-{%- endif %}
+{%- if landing_page is defined and pagename == master_doc %} {% extends
+'landing.html' %} {% else %} {% extends 'default.html' %} {%- endif %}

@@ -1,7 +1,7 @@
 {
-  "name": "sphinx_rtd_theme",
+  "name": "oblivion-sphinx-theme",
   "main": "js/theme.js",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --open --config webpack.dev.js",

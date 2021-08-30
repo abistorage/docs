@@ -1,12 +1,12 @@
-const path = require("path");
-const merge = require("webpack-merge");
-const exec = require("child_process").exec;
-const WatchPlugin = require("webpack-watch-files-plugin").default;
-const ShellPlugin = require("webpack-shell-plugin");
-const common = require("./webpack.common.js");
+const path = require('path');
+const merge = require('webpack-merge');
+const exec = require('child_process').exec;
+const WatchPlugin = require('webpack-watch-files-plugin').default;
+const ShellPlugin = require('webpack-shell-plugin');
+const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
-  mode: "development",
+  mode: 'development',
   watch: true,
   // The dev server uses both contentBase and publicPath. The contentBase is
   // used to server the built docs, and publicPath is the bundle path for live
@@ -14,23 +14,23 @@ module.exports = merge(common, {
   // _static/. Opening http://localhost:1919 is everything you need for
   // development.
   devServer: {
-    contentBase: "docs/build/html",
+    contentBase: 'docs/build/html',
     port: 1919,
     open: false,
     hot: false,
     liveReload: true,
-    publicPath: "/_static/",
+    publicPath: '/_static/',
     disableHostCheck: true,
     headers: {
-      "Access-Control-Allow-Origin": "*"
-    }
+      'Access-Control-Allow-Origin': '*',
+    },
   },
   plugins: [
     new WatchPlugin({
-      files: ["./docs/**/*.rst", "./docs/**/*.py"]
+      files: ['./docs/**/*.rst', './docs/**/*.py'],
     }),
     new ShellPlugin({
-      onBuildStart: ["make -C docs clean html"],
-    })
-  ]
+      onBuildStart: ['make -C docs clean html'],
+    }),
+  ],
 });
