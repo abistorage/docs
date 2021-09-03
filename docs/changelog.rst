@@ -8,7 +8,7 @@ master
 v0.5.0
 ======
 
-:Date: Jun 17, 2020
+:Date: Jun 17, 2021
 
 Fixes
 -----

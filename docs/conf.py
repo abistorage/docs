@@ -25,12 +25,12 @@ sys.path.append(os.path.abspath("./demo/"))
 import revitron_sphinx_theme
 from sphinx.locale import _
 
-project = u"Revitron"
+project = u"BorgStorage"
 slug = re.sub(r"\W+", "-", project.lower())
-version = "0.7.0"
-release = "0.7.0"
-author = "Marc Anton Dahmen"
-copyright = '<a href="https://marcdahmen.de">Marc Anton Dahmen</a>'
+version = "0.1.0"
+release = "0.1.0"
+author = "Borg Storage"
+copyright = '<a href="https://borg.storage">Borg Storage</a>'
 language = "en"
 
 extensions = [
@@ -63,8 +63,8 @@ html_theme = "revitron_sphinx_theme"
 
 html_theme_options = {
     "navigation_depth": 5,
-    "logo_mobile": "revitron-ui-mobile.svg",
-    "github_url": "https://github.com/revitron/revitron",
+    "logo_mobile": "borg_storage.svg",
+    "github_url": "https://github.com/abistorage/docs",
     "color_scheme": "dark",
 }
 
@@ -84,8 +84,8 @@ if not "READTHEDOCS" in os.environ:
     # Add fake versions for local QA of the menu
     html_context["test_versions"] = list(map(lambda x: str(x / 10), range(1, 100)))
 
-html_logo = "demo/static/revitron.svg"
-html_title = "Revitron"
+html_logo = "demo/static/borg_storage.svg"
+html_title = "Borg Storage"
 html_show_sourcelink = True
 
 htmlhelp_basename = slug

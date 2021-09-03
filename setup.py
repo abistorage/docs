@@ -98,7 +98,7 @@ setup(
     license="MIT",
     author="Marc Anton Dahmen, Dave Snider, Read the Docs, Inc. & contributors",
     author_email="",
-    description="Revitron theme for Sphinx",
+    description="Borg Storagetheme for Sphinx",
     long_description=open("README.rst", encoding="utf-8").read(),
     cmdclass={
         #'update_translations': UpdateTranslationsCommand,

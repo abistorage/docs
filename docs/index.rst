@@ -1,12 +1,12 @@
 
-.. image:: demo/static/revitron.svg
+.. image:: demo/static/borg_storage.svg
 
-Revitron
+Decentralized Storage for Web3
 ========
 
 .. container:: .large
 	
-   The Revitron library can be installed as a single Python package for `pyRevit <#>`_ or bundled with a custom fork of pyRevit including the Jarvis package manager und the Revitron UI.
+   Borg Storage and ABI Storage Documentation
 
 .. container:: .buttons
 
@@ -15,7 +15,7 @@ Revitron
 
 
 .. toctree::
-   :caption: Theme Documentation
+   :caption: Borg Storage
    :maxdepth: 2
    :hidden:
 
@@ -33,7 +33,7 @@ Revitron
     :maxdepth: 2
     :hidden:
     :numbered:
-    :caption: Demo Documentation
+    :caption: ABI Storage
 
     demo/structure
     demo/demo

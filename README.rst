@@ -1,15 +1,15 @@
 **************************
-Revitron Sphinx Theme
+Borg StorageSphinx Theme
 **************************
 
 This Sphinx_ theme is a fork of the original `Read the Docs`_ theme
 that was designed to provide a great reader experience for
 documentation users on both desktop and mobile devices. You can find
-a working demo of the theme in the `Revitron documentation`_.
+a working demo of the theme in the `Borg Storagedocumentation`_.
 
 .. _Sphinx: http://www.sphinx-doc.org
 .. _Read the Docs: https://github.com/readthedocs/sphinx_rtd_theme
-.. _Revitron documentation: https://revitron.readthedocs.io/en/latest/
+.. _Borg Storagedocumentation: https://revitron.readthedocs.io/en/latest/
 
 .. image:: https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/revitron/default.png
 
